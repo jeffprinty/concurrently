@@ -1,7 +1,7 @@
 {
-  "name": "concurrently",
+  "name": "concurrently-graceful",
   "version": "4.1.0",
-  "description": "Run commands concurrently",
+  "description": "Run commands concurrently and exits gracefully",
   "main": "index.js",
   "bin": {
     "concurrently": "./bin/concurrently.js"
