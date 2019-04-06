@@ -159,6 +159,5 @@ concurrently(args._.map((command, index) => {
     successCondition: args.success,
     timestampFormat: args.timestampFormat
 }).then(
-    () => process.exit(0),
-    () => process.exit(1)
+    () => process.exit(0)
 );
